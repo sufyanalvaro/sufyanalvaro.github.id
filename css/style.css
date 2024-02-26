@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* navbar start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkgrey;
+}
+.navbar-logo span {
+  color: #d65a31;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 8px 10px;
+}
+
+.navbar-link:hover {
+  color: #d65a31;
+}
+
+.navbar-button {
+  background-color: #d65a31;
+  border-radius: 999px;
+}
+
+.navbar-button:hover {
+  color: #d65a31;
+  background-color: black;
+}
+/* navbar end */
+
+/*dropdwon start */
+.dropdown-content {
+  background-color: #eeeeee;
+  list-style: none;
+  position: fixed;
+  display: none;
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  padding: 16px 24px;
+  transition: 0.2s;
+}
+.dropdown-item:hover {
+  background-color: black;
+}
+.dropdown-item:hover .dropdown-link {
+  color: #d65a31;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* dropdown end */
+
+/* button start */
+.button {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.button-rounded {
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: white;
+  color: #d65a31;
+}
+/* button end */
+
+/* footer start */
+.footer {
+  background-color: #222831;
+  color: white;
+  padding: 60px 60px 16px 60px;
+  background-image: url(https://i.ibb.co/WxCr5K7/sport-shoes.png);
+  background-size: 60px;
+  background-repeat: repeat-y;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-title {
+  color: #d65a31;
+  margin-bottom: 16px;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-list li,
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socials a img {
+  width: 24px;
+}
+
+.footer-copy {
+  color: grey;
+  text-align: center;
+  margin-top: 32px;
+}
+/* footer end */
+
+/* select start */
+.select {
+  padding: 12px;
+  font-size: 18px;
+  margin: 18px;
+}
+/* select end */
+
+/* input text start */
+.input-text input {
+  padding: 12px;
+  font-size: 18px;
+  margin: 12px 0;
+}
+/* input text end */
+
+/* input radio start */
+.input-radio {
+  margin-right: 12px;
+}
+/* input radio end */
+
+/* utility class start */
+.text-black {
+  color: black !important;
+}
+.text-italic {
+  font-style: italic !important;
+}
+/* utility class end */
+
+/* tablet device */
+@media screen and (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-logo {
+    margin-bottom: 16px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-item {
+    text-align: center;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+}
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 16px;
+  }
+  .navbar-link {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

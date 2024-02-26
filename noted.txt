@@ -1,0 +1,12 @@
+          <div class="product-subtitle">Spesification</div>
+          <ul>
+            <li>Breathable Engineered knit</li>
+            <li>Integrated knit unit</li>
+            <li>Silicone gloss print logo</li>
+            <li>Extended heel pull</li>
+            <li>CMEVA Midsole with PROFLY construction</li>
+            <li>Carbon Fiber plate</li>
+            <li>Molded EVA sockliner</li>
+            <li>Early stage meta-rocker</li>
+            <li>Rubberised EVA</li>
+          </ul>
